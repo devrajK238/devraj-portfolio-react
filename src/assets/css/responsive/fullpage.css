@@ -150,7 +150,7 @@
         font-size: 12px !important;
     }
     .formCon {
-        padding: 15px;
+        padding: 15px !important;
     }
     form .row {
         --bs-gutter-x: 10px;
