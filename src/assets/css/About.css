@@ -18,6 +18,17 @@
     }
 }
 
+.infos p {
+    margin: 0;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 0 35px;
+}
+
 .about figure::after {
     content: "";
     position: absolute;
@@ -36,8 +47,4 @@
     width: 80px;
     height: 80px;
     background: #bfe0ff;
-}
-
-.abCon p {
-    padding: 15px 0 20px;
 }

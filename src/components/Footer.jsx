@@ -1,6 +1,7 @@
 // src/Contact.js
 import React from 'react';
 import '../assets/css/Footer.css';
+import '../assets/css/responsive/fullpage.css';
 const Contact = () => {
     return <>
 

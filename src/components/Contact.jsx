@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import '../assets/css/Contact.css';
+import '../assets/css/responsive/fullpage.css';
 
 const Contact = () => {
     const form = useRef();

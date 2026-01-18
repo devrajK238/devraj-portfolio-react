@@ -1,6 +1,8 @@
 .hero {
     background: #0788ff42;
     padding: 150px 0 0;
+    height: 100vh;
+    place-content: center;
 }
 
 .hero .row {
@@ -16,8 +18,16 @@
 }
 
 .hero .figure {
-    width: 100%;
+    width: 35vw;
     text-align: end;
+    border-radius: 50%;
+    overflow: hidden;
+    background: var(--blue);
+    height: 35vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px;
 }
 
 .infoBtn a {

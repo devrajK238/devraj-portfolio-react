@@ -4,6 +4,7 @@ import Tilt from "react-parallax-tilt";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLightbulb, faBrain, faPenRuler, faCode, faCheck, faRocket } from "@fortawesome/free-solid-svg-icons";
 import "../assets/css/Process.css";
+import '../assets/css/responsive/fullpage.css';
 
 // Define steps and corresponding icons
 const steps = [
@@ -27,7 +28,7 @@ const Process = () => {
         </div>
         <div className="row">
           {steps.map((step, index) => (
-            <div className="col-lg-2" key={index}>
+            <div className="col-lg-2 col-md-2 col-4" key={index}>
               <Tilt
                 className="tilt-container"
                 tiltMaxAngleX={25}

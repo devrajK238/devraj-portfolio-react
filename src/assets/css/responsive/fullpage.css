@@ -1,0 +1,169 @@
+@media(max-width:1400px) {
+    .hero .myInfo h1 {
+        font-size: 40px !important;
+    }
+    p {
+        font-size: 16px;
+    }
+    .hero .figure {
+        width: 30vw !important;
+        height: 30vw !important;
+        padding: 25px !important;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    a,
+    .header .navbar-links li a {
+        font-size: 14px;
+    }
+    .proAll .proCon figure {
+        height: 360px !important;
+    }
+    .heading {
+        padding-bottom: 15px !important;
+    }
+    small {
+        font-size: 14px !important;
+    }
+    .procesCon figure {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .procesCon figure svg {
+        font-size: 20px;
+    }
+    .procesCon h3 {
+        font-size: 16px !important;
+    }
+    form .form-control,
+    form textarea {
+        font-size: 14px !important;
+    }
+    footer {
+        padding: 20px !important;
+    }
+}
+
+@media(max-width:1200px) {
+    .hero .figure {
+        width: 35vw !important;
+        height: 35vw !important;
+    }
+}
+
+@media(max-width:992px) {
+    .hero .row {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .hero {
+        padding: 110px 0 40px !important;
+        height: auto !important;
+        place-content: center !important;
+    }
+    .header .navbar-brand img {
+        width: 70px !important;
+    }
+    .header .navbar-links {
+        gap: 20px;
+    }
+    .proAll .proCon figure {
+        height: 260px !important;
+    }
+    .process .row {
+        --bs-gutter-x: 10px !important;
+        gap: 10px 0;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .row {
+        --bs-gutter-x: 10px !important;
+    }
+    .hero .myInfo h1 {
+        font-size: 30px !important;
+        margin-bottom: 5px !important;
+    }
+    small {
+        font-size: 12px !important;
+        padding: 3px 10px !important;
+    }
+    .header .navbar-links {
+        gap: 0px !important;
+        padding: 20px !important;
+    }
+    .navbar-links li {
+        padding: 5px 0 !important;
+    }
+    h2 {
+        font-size: 30px !important;
+    }
+    section {
+        padding: 40px 0 !important;
+    }
+    .proAll .proCon {
+        width: 48% !important;
+    }
+}
+
+@media(max-width:576px) {
+    .hero .figure {
+        width: 40vw !important;
+        height: 40vw !important;
+        padding: 10px !important;
+    }
+    .hero .myInfo h1 {
+        font-size: 25px !important;
+    }
+    p {
+        font-size: 12px !important;
+    }
+    a,
+    .header .navbar-links li a {
+        font-size: 10px !important;
+        padding: 4px 10px !important;
+    }
+    .header .navbar-brand img {
+        width: 50px !important;
+    }
+    .nav-toggle {
+        top: 25px !important;
+        right: 10px !important;
+    }
+    h2 {
+        font-size: 25px !important;
+        margin-bottom: 0 !important;
+    }
+    .myBtn {
+        padding: 4px 10px !important;
+        font-size: 10px !important;
+    }
+    .procesCon {
+        padding: 10px !important;
+    }
+    .procesCon h3 {
+        font-size: 12px !important;
+    }
+    .formCon {
+        padding: 15px;
+    }
+    form .row {
+        --bs-gutter-x: 10px;
+        margin-bottom: 5px;
+    }
+    form .form-control,
+    form textarea {
+        font-size: 12px !important;
+    }
+    footer {
+        padding: 10px !important;
+    }
+    footer p {
+        font-size: 10px !important;
+    }
+}
