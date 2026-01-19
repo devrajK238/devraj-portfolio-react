@@ -32,8 +32,8 @@ const Contact = () => {
                 }, 5000);
             },
             (error) => {
-                console.log("EmailJS Error:", error);
-                alert("Failed to send message.");
+                console.log("EmailJS Error:", error.text, error);
+    alert("Failed to send message: " + error.text);
             }
         );
     };
